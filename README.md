@@ -106,21 +106,20 @@ Implemented as a `HashMap<String, TDSObject>` where the key is `lexeme:scope` (n
 | YACC/J (Byacc/J) | LALR(1) parser generator |
 | MASM32 | Assembler for generated x86-32 output |
 
-## How to Build
+## How to Run
 
-1. Generate the parser from the grammar:
+1. Before compiling, open `src/AnalizadorSintactico/AnalizadorSintactico.java` 
+   and update the output path to match your local environment — that is where 
+   the generated .asm file will be saved.
+
+2. Compile all Java sources:
 ```bash
-byaccj -Jclass=Parser gramatica.y
+javac -cp src src/**/*.java
 ```
 
-2. Compile the Java sources:
+3. Run the compiler passing a source file as argument:
 ```bash
-javac -cp . src/**/*.java
-```
-
-3. Run the compiler on a source file:
-```bash
-java AnalizadorSintactico.AnalizadorSintactico input.src
+java -cp src AnalizadorSintactico.AnalizadorSintactico program.txt
 ```
 
 4. Assemble the output with MASM32:
@@ -128,6 +127,10 @@ java AnalizadorSintactico.AnalizadorSintactico input.src
 ml /c /coff output.asm
 link /subsystem:console output.obj
 ```
+
+> Note: `Parser.java` is already generated from `gramatica.y` and included 
+> in the repository. Re-running YACC/J is not necessary unless the grammar 
+> is modified.
 
 ## Authors
 
