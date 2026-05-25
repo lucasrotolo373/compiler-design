@@ -122,11 +122,8 @@ javac -cp src src/**/*.java
 java -cp src AnalizadorSintactico.AnalizadorSintactico program.txt
 ```
 
-4. Assemble the output with MASM32:
-```bash
-ml /c /coff output.asm
-link /subsystem:console output.obj
-```
+4. Open the generated .asm file in MASM32 IDE and assemble and link it 
+   from there. The resulting executable can then be run from the terminal.
 
 > Note: `Parser.java` is already generated from `gramatica.y` and included 
 > in the repository. Re-running YACC/J is not necessary unless the grammar 
