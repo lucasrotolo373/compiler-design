@@ -1,0 +1,5 @@
+@Asignacion multiple
+MAIN{
+   var A;
+   print(A);
+}

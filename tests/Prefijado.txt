@@ -1,0 +1,11 @@
+@Prefijado
+MAIN{
+   var A, B;
+   uint F(uint A){
+       MAIN.A:= 7UI;
+       print(A);
+       print(MAIN.A);
+   }
+   A:= 5UI;
+   F(A->A);
+}

@@ -1,0 +1,9 @@
+@Lambda
+MAIN{       
+    uint F(lambda X){
+      var B;
+      B := 7UI;
+      X(B);
+    }   
+    F((uint A){if(A > 3UI) print(A); endif;} ->X);
+}

@@ -1,0 +1,8 @@
+@Invocacion a funcion semantica CVR, lvalue cte.
+MAIN{
+   var A;
+   uint F(uint X){
+      print(X);
+   }
+   F(7UI -> X);
+}

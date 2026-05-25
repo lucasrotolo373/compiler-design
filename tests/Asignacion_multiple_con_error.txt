@@ -1,0 +1,5 @@
+@Asignacion multiple con error
+MAIN{
+  var A, B, C;
+  A, B, C = 5UI, 6.0;
+}

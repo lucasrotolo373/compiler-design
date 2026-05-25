@@ -1,0 +1,11 @@
+@Asignacion multiple con funcion
+MAIN{
+    var A, B, C, D;
+    uint, dfloat, uint F(uint S){
+        S:=4UI;
+        return(5UI,6.0,7UI);
+    }
+    D := 8UI;
+    A = F(D ->S);
+    print(A);
+}

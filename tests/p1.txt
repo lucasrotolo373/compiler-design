@@ -1,0 +1,9 @@
+MAIN{
+var A;
+	uint, dfloat F(cr le uint X){
+		MAIN.A := X;
+		print(X);
+	}
+	A := 0UI;
+	A := F(A -> X);
+}

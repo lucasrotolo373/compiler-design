@@ -1,0 +1,5 @@
+@Asignacion multiple
+MAIN{
+   var A, B, C;
+  A, B = 5UI, 6.0, 5.5;
+}

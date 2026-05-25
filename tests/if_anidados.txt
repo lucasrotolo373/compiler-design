@@ -1,0 +1,18 @@
+@if anidados
+MAIN{
+    var A, B, C;
+    A:= 5.;
+    B:= 5.;
+    C:= 3.;
+    if (A >= B){
+        if (4. + C <= 8. * B){
+            print(&HOLA&);
+        }
+		else
+		   print(&mayor&);
+        endif;
+    }
+	else
+		print(&else&);
+    endif;
+}

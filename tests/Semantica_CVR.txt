@@ -1,0 +1,11 @@
+@Semantica CVR
+MAIN{
+   var A, B;
+   uint F(uint C){
+       print(C);
+       C:= 7UI;
+   }
+   A:= 5UI;
+   F(A->C);
+   print(A);
+}

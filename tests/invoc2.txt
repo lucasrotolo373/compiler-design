@@ -1,0 +1,15 @@
+ @Redeclaracion de variables en funcion
+MAIN{
+   var A, B;
+   uint F(uint C){
+       var C2;
+       C:= 7UI;
+   }
+   dfloat F2(uint C){
+       var C2;
+       C:= 7UI;
+   }
+   var C2;
+   A:=1UI;
+   C2 := F3(A->C);
+}

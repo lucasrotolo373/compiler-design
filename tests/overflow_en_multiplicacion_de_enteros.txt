@@ -1,0 +1,5 @@
+@overflow en multiplicacion de enteros
+MAIN{
+   var A;
+   A := 5UI + 3.0*3.0;
+}

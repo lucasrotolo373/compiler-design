@@ -1,0 +1,15 @@
+@Prefijado con error de alcance de unidad
+MAIN{
+   var A, B;
+   uint F(uint A){
+       MAIN.A:= 7UI;
+       print(A);
+       print(X.G);
+   }
+   uint X(uint T){
+        var G;
+        G:=5.0;
+   }
+   A:= 5UI;
+   F(A->A);
+}

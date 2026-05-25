@@ -1,0 +1,8 @@
+ @Redeclaracion de variables en funcion
+MAIN{
+   var A, B;
+   uint F(uint C){
+       var C;
+       C:= 7UI;
+   }
+}

@@ -1,0 +1,6 @@
+@ resta con resultado negativo en enteros sin signo
+MAIN{
+   var A;
+   A := 1UI;
+   A := A - 2UI;
+}

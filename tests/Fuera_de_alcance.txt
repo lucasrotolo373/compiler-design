@@ -1,0 +1,12 @@
+ @Fuera de alcance
+MAIN{
+   var A, B;
+   uint F(uint C){
+       C:= 7UI;
+       J:= 8.0;
+   }
+   uint G(uint D){
+     var J;
+     J:= 6.0;
+   }
+}

@@ -1,0 +1,7 @@
+@No declaracion de variables
+MAIN{
+   var A, B;
+   uint F(uint C){
+       D:= 7UI;
+   }
+}

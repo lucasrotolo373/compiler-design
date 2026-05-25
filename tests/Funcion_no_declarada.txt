@@ -1,0 +1,11 @@
+@Funcion no declarada
+MAIN{
+   var A, B;
+   uint F(uint C){
+       print(C);
+       C:= 7UI;
+   }
+   A:= 5UI;
+   Z(A->C);
+   print(A);
+}

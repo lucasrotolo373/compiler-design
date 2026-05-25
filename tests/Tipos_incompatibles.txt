@@ -1,0 +1,7 @@
+@Tipos incompatibles
+MAIN{
+   var A, B;
+   A := 5UI;
+   B := 8.0;
+   A := B;
+}

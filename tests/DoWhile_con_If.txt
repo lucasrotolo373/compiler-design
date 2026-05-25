@@ -1,0 +1,16 @@
+@DoWhile con If
+MAIN{
+    var A, B, C;
+    A:= 6UI;
+    B:= 4UI;
+    C:= 2UI;
+    do {
+        print(C);
+        if(C < B){
+            print(&Mas Grande B&);
+        }else{
+             print(&Mas Grande C&);
+        }endif;
+         C:= C + 1UI;
+    } while(C < A);
+}

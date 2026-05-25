@@ -1,0 +1,6 @@
+@overflow en suma de enteros
+MAIN{
+   var A;
+   A := 1UI;
+   A := A + 65535UI;
+}
